@@ -1,0 +1,59 @@
+	body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6f2; 
+            color: #333;
+        }
+        header {
+            background: #ff4d94; 
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-family: 'Georgia', serif; 
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px; 
+        }
+        h1 {
+            color: #ff1a75; 
+        }
+        h2 {
+            color: #ff66b3; 
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            background: #ffe6ff; 
+            padding: 10px;
+            border-left: 6px solid #ff1a75; 
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #ff4d94; 
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+	.bio-grid {
+    	    display: grid;
+    	    grid-template-columns: auto 1fr;
+    	    gap: 10px; 
+    	    margin-bottom: 20px;
+	}
+	.contact-grid {
+    	    display: grid;
+    	    grid-template-columns: auto 1fr; 
+    	    gap: 10px;
+    	    margin-bottom: 20px; 
+	}
+    
